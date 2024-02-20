@@ -1,0 +1,15 @@
+Algoritmo AreaTriangulo
+//variables
+	definir a como real;
+	definir b como real;
+	definir c como real;
+//entrada
+	Escribir "cuanto equivale la altura?";
+	leer a;
+	Escribir "cuanto equivale la base?";
+	leer b;
+//Proceso 
+	c=(b*a)/2;
+//salida
+	Escribir "el resultado del area equivale a ",c;
+FinAlgoritmo

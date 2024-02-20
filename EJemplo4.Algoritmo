@@ -1,0 +1,19 @@
+Algoritmo Estacionamiento
+//variables
+	definir HoraDeEntrada Como Real;
+	definir HoraDeSalida como Real;
+	definir TiempoEnElEstacionamiento Como Real;
+	definir CostoDeTiempoEnElEstacionamiento Como Real;
+	definir CostoPorHora Como Real;
+	CostoPorHora<-15 //asignación de valor
+//entrada
+	Escribir "A que hora llego?";
+	leer HoraDeEntrada;
+	Escribir "A que hora salio?";
+	leer HoraDeSalida;
+//Proceso
+	TiempoEnElEstacionamiento=HoraDesalida-HoraDeEntrada;
+	CostoDeTiempoEnElEstacionamiento=CostoPorHora*TiempoEnElEstacionamiento;
+//salida
+	Escribir "Costo del uso en el estacionamiento es ",CostoDeTiempoEnElEstacionamiento;	
+FinAlgoritmo

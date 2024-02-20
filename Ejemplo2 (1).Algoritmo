@@ -1,0 +1,14 @@
+Algoritmo PesosDolares
+//variables
+	definir TipoDeCambio como Real;
+	definir dolares como Real;
+	definir pesos como Real;
+	TipoDeCambio<-17.17 //asignación de valor
+//entrada
+	Escribir "Cuanto dinero quieres cambiar?";
+	leer pesos;
+//proceso
+	dolares=pesos/TipoDeCambio
+//salida
+	Escribir "La cantidad de dolares comprados son ",dolares;
+FinAlgoritmo

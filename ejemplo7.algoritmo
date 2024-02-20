@@ -1,0 +1,15 @@
+Algoritmo ViajeSensillo
+	//variables
+	definir km Como Real
+	definir CostoKm Como Real
+	definir total Como Real
+	//entrada
+	Escribir "Cuantos km vas a recorrer?"
+	leer km
+	Escribir "Cual es el costo por km?"
+	leer CostoKm
+	//Proceso 
+	total=km*CostoKm
+	//salida
+	Escribir "Tu boleto cuesta: ", total
+FinAlgoritmo

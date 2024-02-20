@@ -1,0 +1,12 @@
+Algoritmo EdadDeLaPersona
+//variables
+	definir aniodeNacimiento Como Entero;
+	definir edad Como Entero;
+//Entrada
+	Escribir "En que año naciste?";
+	leer aniodeNacimiento;
+//Proceso 
+	edad<-2024-aniodeNacimiento
+//salida
+	Escribir "La edad es ",edad;
+FinAlgoritmo

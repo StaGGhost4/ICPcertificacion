@@ -1,0 +1,19 @@
+Algoritmo LaBrochaGorda
+//variables
+	definir Pintura Como Caracter;
+	definir PinturaComprada Como Entero;
+	PinturaComprada<-1 //asignación de valor
+	definir MetrosCuadrados Como Real;
+	definir CostoDeMetroCuadrados Como Real;
+	CostoDeMetroCuadrados<-10000 //asignación de valor
+	definir TotalDeLaPintura Como Real;
+//entrada
+	Escribir "cual es el nombre de la pintura?";
+	leer Pintura;
+	Escribir "Cuantos metros cuadrados mide?";
+	leer MetrosCuadrados;
+//Proceso	
+	TotalDeLaPintura=(MetrosCuadrados*PinturaComprada)*CostoDeMetroCuadrados;
+//salida
+	Escribir "El costo de la pintura es ", TotalDeLaPintura;
+FinAlgoritmo

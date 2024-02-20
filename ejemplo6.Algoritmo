@@ -1,0 +1,15 @@
+Algoritmo Hipotenusa
+	//variables
+	definir a Como Real
+	definir b Como Real
+	definir h Como Real
+	//entrada
+	Escribir "cuanto vale el cateto adyasente?"
+	leer a
+	Escribir "cuanto vale el cateto opuesto?"
+	leer b
+	//Proceso 
+	h=rc((a*a)+(b*b))
+	//salida
+	Escribir "tu hipotenusa es de ", h
+FinAlgoritmo

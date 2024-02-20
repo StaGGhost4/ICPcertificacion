@@ -1,0 +1,15 @@
+Algoritmo kmBici
+	//vaiables
+	definir tiempo Como Real
+	definir km Como Real
+	definir res Como Real
+	//entrada
+	Escribir "Cuantas horas te tardas en recorrer un km?"
+	leer tiempo
+	Escribir "cuantos km recorriste?"
+	leer km
+	//Proceso 
+	res=km*tiempo
+	//salida
+	Escribir "te tardas" res "horas en llegar"
+FinAlgoritmo
